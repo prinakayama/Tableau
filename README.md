@@ -7,3 +7,26 @@
 
 
 <p align="center"> 
+
+1. Dashboard com Tableau
+   *
+   *
+2. Preparação e Transformação de dados
+   *
+   *
+3. Funções e cálculos LoD
+   *
+   *
+4. Gráficos Simples e Avançados
+   *
+   *
+5. Mapas
+   *
+   *
+6. Dashboards & Storytelling
+   *
+   *
+7. Projeto BI
+   *
+   *
+   
