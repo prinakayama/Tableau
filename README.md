@@ -9,11 +9,16 @@
 <p align="center"> 
 
 1. Dashboard com Tableau
-   *
-   *
+   * Conveitos Essenciais 
+   
 2. Preparação e Transformação de dados
-   *
-   *
+   * Discreto e Contínuo
+   * Window
+   * Table, Lookup, Previous
+   * First & Last, Index, Rank, Size
+   * Endereçamento e particionamento
+   * LOD: Fixed, Include & Exclude
+     
 3. Funções e cálculos LoD
    *
    *
