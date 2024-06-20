@@ -53,5 +53,3 @@
    * Construindo Gauges
    * Dashboards
      
-   *
-   
