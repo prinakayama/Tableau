@@ -1,0 +1,820 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20241.24.0524.1403                               -->
+<workbook original-version='18.1' source-build='2024.1.3 (20241.24.0524.1403)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <_.fcp.AnimationOnByDefault.true...AnimationOnByDefault />
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <_.fcp.ObjectModelEncapsulateLegacy.true...ObjectModelEncapsulateLegacy />
+    <_.fcp.ObjectModelTableType.true...ObjectModelTableType />
+    <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel />
+    <SheetIdentifierTracking />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <_.fcp.AnimationOnByDefault.false...style>
+    <_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule element='animation'>
+      <_.fcp.AnimationOnByDefault.false...format attr='animation-on' value='ao-on' />
+    </_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule>
+  </_.fcp.AnimationOnByDefault.false...style>
+  <datasources>
+    <datasource caption='CoffeeChain_Migrated Data' inline='true' name='federated.1oagzgj09ec9f61d9tqii18opg1k' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='CoffeeChain_Migrated Data' name='textscan.1ij7i8x1ckmdpj10ct0bz1n4vwjb'>
+            <connection class='textscan' directory='C:/Users/pri_f/OneDrive/Documents/My Tableau Repository' filename='CoffeeChain_Migrated Data.csv' password='' server='' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='textscan.1ij7i8x1ckmdpj10ct0bz1n4vwjb' name='CoffeeChain_Migrated Data.csv' table='[CoffeeChain_Migrated Data#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_US' separator=';'>
+            <column datatype='integer' name='Codigo Area' ordinal='0' />
+            <column datatype='datetime' name='Data' ordinal='1' />
+            <column datatype='string' name='Mercado' ordinal='2' />
+            <column datatype='string' name='Tamanho do Mercado' ordinal='3' />
+            <column datatype='string' name='Produto' ordinal='4' />
+            <column datatype='string' name='Tipo de Produto' ordinal='5' />
+            <column datatype='string' name='Estado' ordinal='6' />
+            <column datatype='string' name='Tipo' ordinal='7' />
+            <column datatype='integer' name='Orçamento Custo Produtos' ordinal='8' />
+            <column datatype='integer' name='Orcamento Margem' ordinal='9' />
+            <column datatype='integer' name='Orcamento Lucro' ordinal='10' />
+            <column datatype='integer' name='Orcamento Vendas' ordinal='11' />
+            <column datatype='integer' name='Custo Produtos Vendidos' ordinal='12' />
+            <column datatype='integer' name='Estoque' ordinal='13' />
+            <column datatype='integer' name='Margem' ordinal='14' />
+            <column datatype='integer' name='Marketing' ordinal='15' />
+            <column datatype='integer' name='Número de registros' ordinal='16' />
+            <column datatype='integer' name='Lucro' ordinal='17' />
+            <column datatype='integer' name='Vendas' ordinal='18' />
+            <column datatype='integer' name='Despesas Totais' ordinal='19' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='textscan.1ij7i8x1ckmdpj10ct0bz1n4vwjb' name='CoffeeChain_Migrated Data.csv' table='[CoffeeChain_Migrated Data#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_US' separator=';'>
+            <column datatype='integer' name='Codigo Area' ordinal='0' />
+            <column datatype='datetime' name='Data' ordinal='1' />
+            <column datatype='string' name='Mercado' ordinal='2' />
+            <column datatype='string' name='Tamanho do Mercado' ordinal='3' />
+            <column datatype='string' name='Produto' ordinal='4' />
+            <column datatype='string' name='Tipo de Produto' ordinal='5' />
+            <column datatype='string' name='Estado' ordinal='6' />
+            <column datatype='string' name='Tipo' ordinal='7' />
+            <column datatype='integer' name='Orçamento Custo Produtos' ordinal='8' />
+            <column datatype='integer' name='Orcamento Margem' ordinal='9' />
+            <column datatype='integer' name='Orcamento Lucro' ordinal='10' />
+            <column datatype='integer' name='Orcamento Vendas' ordinal='11' />
+            <column datatype='integer' name='Custo Produtos Vendidos' ordinal='12' />
+            <column datatype='integer' name='Estoque' ordinal='13' />
+            <column datatype='integer' name='Margem' ordinal='14' />
+            <column datatype='integer' name='Marketing' ordinal='15' />
+            <column datatype='integer' name='Número de registros' ordinal='16' />
+            <column datatype='integer' name='Lucro' ordinal='17' />
+            <column datatype='integer' name='Vendas' ordinal='18' />
+            <column datatype='integer' name='Despesas Totais' ordinal='19' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[CoffeeChain_Migrated Data.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;;&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Codigo Area</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Codigo Area]</local-name>
+            <parent-name>[CoffeeChain_Migrated Data.csv]</parent-name>
+            <remote-alias>Codigo Area</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[CoffeeChain_Migrated Data.csv_C216EF712E1F4FB7876F91B2E45C9D06]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Data</remote-name>
+            <remote-type>135</remote-type>
+            <local-name>[Data]</local-name>
+            <parent-name>[CoffeeChain_Migrated Data.csv]</parent-name>
+            <remote-alias>Data</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>datetime</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[CoffeeChain_Migrated Data.csv_C216EF712E1F4FB7876F91B2E45C9D06]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Mercado</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Mercado]</local-name>
+            <parent-name>[CoffeeChain_Migrated Data.csv]</parent-name>
+            <remote-alias>Mercado</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[CoffeeChain_Migrated Data.csv_C216EF712E1F4FB7876F91B2E45C9D06]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Tamanho do Mercado</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Tamanho do Mercado]</local-name>
+            <parent-name>[CoffeeChain_Migrated Data.csv]</parent-name>
+            <remote-alias>Tamanho do Mercado</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[CoffeeChain_Migrated Data.csv_C216EF712E1F4FB7876F91B2E45C9D06]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Produto</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Produto]</local-name>
+            <parent-name>[CoffeeChain_Migrated Data.csv]</parent-name>
+            <remote-alias>Produto</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[CoffeeChain_Migrated Data.csv_C216EF712E1F4FB7876F91B2E45C9D06]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Tipo de Produto</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Tipo de Produto]</local-name>
+            <parent-name>[CoffeeChain_Migrated Data.csv]</parent-name>
+            <remote-alias>Tipo de Produto</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[CoffeeChain_Migrated Data.csv_C216EF712E1F4FB7876F91B2E45C9D06]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Estado</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Estado]</local-name>
+            <parent-name>[CoffeeChain_Migrated Data.csv]</parent-name>
+            <remote-alias>Estado</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[CoffeeChain_Migrated Data.csv_C216EF712E1F4FB7876F91B2E45C9D06]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Tipo</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Tipo]</local-name>
+            <parent-name>[CoffeeChain_Migrated Data.csv]</parent-name>
+            <remote-alias>Tipo</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[CoffeeChain_Migrated Data.csv_C216EF712E1F4FB7876F91B2E45C9D06]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Orçamento Custo Produtos</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Orçamento Custo Produtos]</local-name>
+            <parent-name>[CoffeeChain_Migrated Data.csv]</parent-name>
+            <remote-alias>Orçamento Custo Produtos</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[CoffeeChain_Migrated Data.csv_C216EF712E1F4FB7876F91B2E45C9D06]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Orcamento Margem</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Orcamento Margem]</local-name>
+            <parent-name>[CoffeeChain_Migrated Data.csv]</parent-name>
+            <remote-alias>Orcamento Margem</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[CoffeeChain_Migrated Data.csv_C216EF712E1F4FB7876F91B2E45C9D06]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Orcamento Lucro</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Orcamento Lucro]</local-name>
+            <parent-name>[CoffeeChain_Migrated Data.csv]</parent-name>
+            <remote-alias>Orcamento Lucro</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[CoffeeChain_Migrated Data.csv_C216EF712E1F4FB7876F91B2E45C9D06]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Orcamento Vendas</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Orcamento Vendas]</local-name>
+            <parent-name>[CoffeeChain_Migrated Data.csv]</parent-name>
+            <remote-alias>Orcamento Vendas</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[CoffeeChain_Migrated Data.csv_C216EF712E1F4FB7876F91B2E45C9D06]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Custo Produtos Vendidos</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Custo Produtos Vendidos]</local-name>
+            <parent-name>[CoffeeChain_Migrated Data.csv]</parent-name>
+            <remote-alias>Custo Produtos Vendidos</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[CoffeeChain_Migrated Data.csv_C216EF712E1F4FB7876F91B2E45C9D06]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Estoque</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Estoque]</local-name>
+            <parent-name>[CoffeeChain_Migrated Data.csv]</parent-name>
+            <remote-alias>Estoque</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[CoffeeChain_Migrated Data.csv_C216EF712E1F4FB7876F91B2E45C9D06]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Margem</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Margem]</local-name>
+            <parent-name>[CoffeeChain_Migrated Data.csv]</parent-name>
+            <remote-alias>Margem</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[CoffeeChain_Migrated Data.csv_C216EF712E1F4FB7876F91B2E45C9D06]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Marketing</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Marketing]</local-name>
+            <parent-name>[CoffeeChain_Migrated Data.csv]</parent-name>
+            <remote-alias>Marketing</remote-alias>
+            <ordinal>15</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[CoffeeChain_Migrated Data.csv_C216EF712E1F4FB7876F91B2E45C9D06]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Número de registros</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Número de registros]</local-name>
+            <parent-name>[CoffeeChain_Migrated Data.csv]</parent-name>
+            <remote-alias>Número de registros</remote-alias>
+            <ordinal>16</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[CoffeeChain_Migrated Data.csv_C216EF712E1F4FB7876F91B2E45C9D06]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Lucro</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Lucro]</local-name>
+            <parent-name>[CoffeeChain_Migrated Data.csv]</parent-name>
+            <remote-alias>Lucro</remote-alias>
+            <ordinal>17</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[CoffeeChain_Migrated Data.csv_C216EF712E1F4FB7876F91B2E45C9D06]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Vendas</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Vendas]</local-name>
+            <parent-name>[CoffeeChain_Migrated Data.csv]</parent-name>
+            <remote-alias>Vendas</remote-alias>
+            <ordinal>18</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[CoffeeChain_Migrated Data.csv_C216EF712E1F4FB7876F91B2E45C9D06]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Despesas Totais</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Despesas Totais]</local-name>
+            <parent-name>[CoffeeChain_Migrated Data.csv]</parent-name>
+            <remote-alias>Despesas Totais</remote-alias>
+            <ordinal>19</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[CoffeeChain_Migrated Data.csv_C216EF712E1F4FB7876F91B2E45C9D06]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='Lucro sobre o Orcamento' datatype='real' name='[Calculation_369576675320356864]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='SUM([Lucro])/ SUM([Orcamento Lucro])' />
+      </column>
+      <column caption='Resultado do Orcamento' datatype='string' name='[Calculation_369576675320864769]' role='measure' type='nominal'>
+        <calculation class='tableau' formula='IF SUM([Lucro])&gt;= SUM([Orcamento Lucro])&#13;&#10;THEN &apos;Meta Alcancada&apos; &#13;&#10;ELSE &apos;Meta nao Alcancada&apos;&#13;&#10;END' />
+      </column>
+      <column caption='Maior entre Lucro e Orcamento do Lucro' datatype='integer' name='[Calculation_369576675321876482]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='IF SUM([Lucro]) &gt;= SUM([Orcamento Lucro])&#13;&#10;THEN SUM([Lucro])&#13;&#10;ELSE SUM([Orcamento Lucro])&#13;&#10;END' />
+      </column>
+      <column datatype='string' name='[Estado]' role='dimension' semantic-role='[State].[Name]' type='nominal' />
+      <_.fcp.ObjectModelTableType.true...column caption='CoffeeChain_Migrated Data.csv' datatype='table' name='[__tableau_internal_object_id__].[CoffeeChain_Migrated Data.csv_C216EF712E1F4FB7876F91B2E45C9D06]' role='measure' type='quantitative' />
+      <column-instance column='[Calculation_369576675320864769]' derivation='User' name='[usr:Calculation_369576675320864769:nk]' pivot='key' type='nominal' />
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[usr:Calculation_369576675320864769:nk]' type='palette'>
+            <map to='#000000'>
+              <bucket>&quot;Meta nao Alcancada&quot;</bucket>
+            </map>
+            <map to='#ffffff'>
+              <bucket>&quot;Meta Alcancada&quot;</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;Brazil&quot;' />
+      </semantic-values>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='CoffeeChain_Migrated Data.csv' id='CoffeeChain_Migrated Data.csv_C216EF712E1F4FB7876F91B2E45C9D06'>
+            <properties context=''>
+              <relation connection='textscan.1ij7i8x1ckmdpj10ct0bz1n4vwjb' name='CoffeeChain_Migrated Data.csv' table='[CoffeeChain_Migrated Data#csv]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='en_US' separator=';'>
+                  <column datatype='integer' name='Codigo Area' ordinal='0' />
+                  <column datatype='datetime' name='Data' ordinal='1' />
+                  <column datatype='string' name='Mercado' ordinal='2' />
+                  <column datatype='string' name='Tamanho do Mercado' ordinal='3' />
+                  <column datatype='string' name='Produto' ordinal='4' />
+                  <column datatype='string' name='Tipo de Produto' ordinal='5' />
+                  <column datatype='string' name='Estado' ordinal='6' />
+                  <column datatype='string' name='Tipo' ordinal='7' />
+                  <column datatype='integer' name='Orçamento Custo Produtos' ordinal='8' />
+                  <column datatype='integer' name='Orcamento Margem' ordinal='9' />
+                  <column datatype='integer' name='Orcamento Lucro' ordinal='10' />
+                  <column datatype='integer' name='Orcamento Vendas' ordinal='11' />
+                  <column datatype='integer' name='Custo Produtos Vendidos' ordinal='12' />
+                  <column datatype='integer' name='Estoque' ordinal='13' />
+                  <column datatype='integer' name='Margem' ordinal='14' />
+                  <column datatype='integer' name='Marketing' ordinal='15' />
+                  <column datatype='integer' name='Número de registros' ordinal='16' />
+                  <column datatype='integer' name='Lucro' ordinal='17' />
+                  <column datatype='integer' name='Vendas' ordinal='18' />
+                  <column datatype='integer' name='Despesas Totais' ordinal='19' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='Bullet Chart '>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='CoffeeChain_Migrated Data' name='federated.1oagzgj09ec9f61d9tqii18opg1k' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1oagzgj09ec9f61d9tqii18opg1k'>
+            <column caption='Lucro sobre o Orcamento' datatype='real' name='[Calculation_369576675320356864]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='SUM([Lucro])/ SUM([Orcamento Lucro])' />
+            </column>
+            <column caption='Resultado do Orcamento' datatype='string' name='[Calculation_369576675320864769]' role='measure' type='nominal'>
+              <calculation class='tableau' formula='IF SUM([Lucro])&gt;= SUM([Orcamento Lucro])&#13;&#10;THEN &apos;Meta Alcancada&apos; &#13;&#10;ELSE &apos;Meta nao Alcancada&apos;&#13;&#10;END' />
+            </column>
+            <column datatype='integer' name='[Lucro]' role='measure' type='quantitative' />
+            <column datatype='string' name='[Mercado]' role='dimension' type='nominal' />
+            <column datatype='integer' name='[Orcamento Lucro]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[Orçamento Custo Produtos]' role='measure' type='quantitative' />
+            <column-instance column='[Mercado]' derivation='None' name='[none:Mercado:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Lucro]' derivation='Sum' name='[sum:Lucro:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Orçamento Custo Produtos]' derivation='Sum' name='[sum:Orçamento Custo Produtos:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Calculation_369576675320356864]' derivation='User' name='[usr:Calculation_369576675320356864:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Calculation_369576675320864769]' derivation='User' name='[usr:Calculation_369576675320864769:nk]' pivot='key' type='nominal' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='height' field='[federated.1oagzgj09ec9f61d9tqii18opg1k].[sum:Lucro:qk]' value='19' />
+          </style-rule>
+          <style-rule element='cell'>
+            <format attr='height' field='[federated.1oagzgj09ec9f61d9tqii18opg1k].[none:Mercado:nk]' value='29' />
+            <format attr='text-format' field='[federated.1oagzgj09ec9f61d9tqii18opg1k].[usr:Calculation_369576675320356864:qk]' value='p0.00%' />
+          </style-rule>
+          <style-rule element='refline'>
+            <format attr='fill-above' id='refline0' value='#00000000' />
+            <format attr='fill-below' id='refline0' value='#00000000' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.1oagzgj09ec9f61d9tqii18opg1k].[usr:Calculation_369576675320864769:nk]' />
+              <text column='[federated.1oagzgj09ec9f61d9tqii18opg1k].[usr:Calculation_369576675320356864:qk]' />
+              <lod column='[federated.1oagzgj09ec9f61d9tqii18opg1k].[sum:Orçamento Custo Produtos:qk]' />
+            </encodings>
+            <reference-line axis-column='[federated.1oagzgj09ec9f61d9tqii18opg1k].[sum:Lucro:qk]' enable-instant-analytics='true' formula='average' id='refline0' label-type='none' probability='95' scope='per-cell' value-column='[federated.1oagzgj09ec9f61d9tqii18opg1k].[sum:Orçamento Custo Produtos:qk]' z-order='1' />
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.1oagzgj09ec9f61d9tqii18opg1k].[none:Mercado:nk]</rows>
+        <cols>[federated.1oagzgj09ec9f61d9tqii18opg1k].[sum:Lucro:qk]</cols>
+      </table>
+      <simple-id uuid='{5DEB9461-C964-4913-9C16-4A67D3163AE2}' />
+    </worksheet>
+    <worksheet name='Bullet Chart (2)'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='CoffeeChain_Migrated Data' name='federated.1oagzgj09ec9f61d9tqii18opg1k' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1oagzgj09ec9f61d9tqii18opg1k'>
+            <column caption='Lucro sobre o Orcamento' datatype='real' name='[Calculation_369576675320356864]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='SUM([Lucro])/ SUM([Orcamento Lucro])' />
+            </column>
+            <column caption='Resultado do Orcamento' datatype='string' name='[Calculation_369576675320864769]' role='measure' type='nominal'>
+              <calculation class='tableau' formula='IF SUM([Lucro])&gt;= SUM([Orcamento Lucro])&#13;&#10;THEN &apos;Meta Alcancada&apos; &#13;&#10;ELSE &apos;Meta nao Alcancada&apos;&#13;&#10;END' />
+            </column>
+            <column caption='Maior entre Lucro e Orcamento do Lucro' datatype='integer' name='[Calculation_369576675321876482]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='IF SUM([Lucro]) &gt;= SUM([Orcamento Lucro])&#13;&#10;THEN SUM([Lucro])&#13;&#10;ELSE SUM([Orcamento Lucro])&#13;&#10;END' />
+            </column>
+            <column datatype='integer' name='[Lucro]' role='measure' type='quantitative' />
+            <column datatype='string' name='[Mercado]' role='dimension' type='nominal' />
+            <column datatype='integer' name='[Orcamento Lucro]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[Orçamento Custo Produtos]' role='measure' type='quantitative' />
+            <column-instance column='[Mercado]' derivation='None' name='[none:Mercado:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Lucro]' derivation='Sum' name='[sum:Lucro:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Orçamento Custo Produtos]' derivation='Sum' name='[sum:Orçamento Custo Produtos:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Calculation_369576675320356864]' derivation='User' name='[usr:Calculation_369576675320356864:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Calculation_369576675320864769]' derivation='User' name='[usr:Calculation_369576675320864769:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Calculation_369576675321876482]' derivation='User' name='[usr:Calculation_369576675321876482:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='height' field='[federated.1oagzgj09ec9f61d9tqii18opg1k].[sum:Lucro:qk]' value='19' />
+            <encoding attr='space' class='0' field='[federated.1oagzgj09ec9f61d9tqii18opg1k].[usr:Calculation_369576675321876482:qk]' field-type='quantitative' fold='true' scope='cols' synchronized='true' type='space' />
+          </style-rule>
+          <style-rule element='cell'>
+            <format attr='height' field='[federated.1oagzgj09ec9f61d9tqii18opg1k].[none:Mercado:nk]' value='32' />
+            <format attr='text-format' field='[federated.1oagzgj09ec9f61d9tqii18opg1k].[usr:Calculation_369576675320356864:qk]' value='p0.00%' />
+          </style-rule>
+          <style-rule element='refline'>
+            <format attr='fill-above' id='refline0' value='#00000000' />
+            <format attr='fill-below' id='refline0' value='#00000000' />
+          </style-rule>
+          <style-rule element='refband'>
+            <format attr='reverse-palette' id='refline1' value='true' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Bar' />
+            <encodings>
+              <color column='[federated.1oagzgj09ec9f61d9tqii18opg1k].[usr:Calculation_369576675320864769:nk]' />
+              <lod column='[federated.1oagzgj09ec9f61d9tqii18opg1k].[sum:Orçamento Custo Produtos:qk]' />
+            </encodings>
+            <reference-line axis-column='[federated.1oagzgj09ec9f61d9tqii18opg1k].[sum:Lucro:qk]' enable-instant-analytics='true' formula='average' id='refline0' label-type='none' probability='95' scope='per-cell' value-column='[federated.1oagzgj09ec9f61d9tqii18opg1k].[sum:Orçamento Custo Produtos:qk]' z-order='1' />
+            <reference-line axis-column='[federated.1oagzgj09ec9f61d9tqii18opg1k].[sum:Lucro:qk]' enable-instant-analytics='true' fill-above='false' fill-below='true' formula='average' id='refline1' label-type='none' percentage-bands='true' probability='95' scope='per-cell' symmetric='false' value-column='[federated.1oagzgj09ec9f61d9tqii18opg1k].[sum:Orçamento Custo Produtos:qk]' z-order='2'>
+              <reference-line-value percentage='90' />
+              <reference-line-value percentage='95' />
+              <reference-line-value percentage='100' />
+            </reference-line>
+            <reference-line axis-column='[federated.1oagzgj09ec9f61d9tqii18opg1k].[usr:Calculation_369576675321876482:qk]' enable-instant-analytics='true' formula='average' id='refline2' label-type='automatic' probability='95' scope='per-pane' value-column='[federated.1oagzgj09ec9f61d9tqii18opg1k].[usr:Calculation_369576675321876482:qk]' z-order='3' />
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='1' selection-relaxation-option='selection-relaxation-allow' x-axis-name='[federated.1oagzgj09ec9f61d9tqii18opg1k].[sum:Lucro:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Bar' />
+            <encodings>
+              <color column='[federated.1oagzgj09ec9f61d9tqii18opg1k].[usr:Calculation_369576675320864769:nk]' />
+              <lod column='[federated.1oagzgj09ec9f61d9tqii18opg1k].[sum:Orçamento Custo Produtos:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-show' value='false' />
+                <format attr='has-stroke' value='true' />
+                <format attr='stroke-color' value='#000000' />
+                <format attr='mark-transparency' value='255' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='2' selection-relaxation-option='selection-relaxation-allow' x-axis-name='[federated.1oagzgj09ec9f61d9tqii18opg1k].[usr:Calculation_369576675321876482:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Bar' />
+            <mark-sizing mark-sizing-setting='marks-scaling-off' />
+            <encodings>
+              <color column='[federated.1oagzgj09ec9f61d9tqii18opg1k].[usr:Calculation_369576675320864769:nk]' />
+              <text column='[federated.1oagzgj09ec9f61d9tqii18opg1k].[usr:Calculation_369576675320356864:qk]' />
+              <lod column='[federated.1oagzgj09ec9f61d9tqii18opg1k].[sum:Orçamento Custo Produtos:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='has-stroke' value='true' />
+                <format attr='stroke-color' value='#000000' />
+                <format attr='mark-transparency' value='255' />
+                <format attr='size' value='0.0099999997764825821' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.1oagzgj09ec9f61d9tqii18opg1k].[none:Mercado:nk]</rows>
+        <cols>([federated.1oagzgj09ec9f61d9tqii18opg1k].[sum:Lucro:qk] + [federated.1oagzgj09ec9f61d9tqii18opg1k].[usr:Calculation_369576675321876482:qk])</cols>
+      </table>
+      <simple-id uuid='{E21744C3-7B61-42D4-ACC3-F7B901141F6D}' />
+    </worksheet>
+  </worksheets>
+  <windows source-height='30'>
+    <window class='worksheet' name='Bullet Chart '>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.1oagzgj09ec9f61d9tqii18opg1k].[usr:Calculation_369576675320864769:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.1oagzgj09ec9f61d9tqii18opg1k].[none:Mercado:nk]</field>
+            <field>[federated.1oagzgj09ec9f61d9tqii18opg1k].[usr:Calculation_369576675320864769:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{B3BFE8F7-4F23-4049-9233-F325D56BAA10}' />
+    </window>
+    <window class='worksheet' maximized='true' name='Bullet Chart (2)'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='1' param='[federated.1oagzgj09ec9f61d9tqii18opg1k].[usr:Calculation_369576675320864769:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.1oagzgj09ec9f61d9tqii18opg1k].[none:Mercado:nk]</field>
+            <field>[federated.1oagzgj09ec9f61d9tqii18opg1k].[usr:Calculation_369576675320864769:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{84495007-B6C6-484C-9EC9-AC9457A11F8A}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='159' name='Bullet Chart ' width='192'>
+      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
+      wFH+B72rGAYDzoCAAAAAAElFTkSuQmCC
+    </thumbnail>
+    <thumbnail height='170' name='Bullet Chart (2)' width='192'>
+      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
+    </thumbnail>
+  </thumbnails>
+</workbook>
